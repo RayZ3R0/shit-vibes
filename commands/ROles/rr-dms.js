@@ -27,8 +27,6 @@ run: async (client, message, args) => {
     ]
     if (!owners.includes(message.author.id)) return;
     
-    const chann = message.guild.channels.cache.get('709656390943244299')
-    const me = await chann.messages.fetch('920656817409904650')
         const embed = new MessageEmbed()
             .setColor('RANDOM')
             .setTitle('DMs')
@@ -46,7 +44,7 @@ run: async (client, message, args) => {
                 .setLabel('DMs Closed')
                 .setStyle('DANGER'),
             );
-        me.edit({
+        message.channel.send({
             embeds: [embed],
             components: [row]
         })

@@ -26,8 +26,6 @@ run: async (client, message, args) => {
         '261331303306231812'
     ]
     if (!owners.includes(message.author.id)) return;
-    const chann = message.guild.channels.cache.get('709656390943244299')
-    const me = await chann.messages.fetch('920656037743296572')
         const embed = new MessageEmbed()
             .setColor('RANDOM')
             .setTitle('Pick your Sexuality roles!')
@@ -64,7 +62,7 @@ run: async (client, message, args) => {
                 
                 
             );
-        me.edit({
+        message.channel.send({
             embeds: [embed],
             components: [row]
         })

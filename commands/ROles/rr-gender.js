@@ -27,8 +27,6 @@ run: async (client, message, args) => {
     ]
     if (!owners.includes(message.author.id)) return;
 
-    const chann = message.guild.channels.cache.get('709656390943244299')
-    const me = await chann.messages.fetch('920656027840577596')
         const embed = new MessageEmbed()
             .setColor('RANDOM')
             .setTitle('Pick your Gender roles!')
@@ -52,7 +50,7 @@ run: async (client, message, args) => {
                 .setLabel('Other')
                 .setStyle('SECONDARY'),
             );
-        me.edit({
+        message.channel.send({
             embeds: [embed],
             components: [row]
         })

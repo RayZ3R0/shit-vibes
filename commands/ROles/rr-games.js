@@ -26,7 +26,7 @@ module.exports = {
                 '261331303306231812'
             ]
             if (!owners.includes(message.author.id)) return;
-            const chann = message.guild.channels.cache.get('709656390943244299')
+            //const chann = message.guild.channels.cache.get('709656390943244299')
             //const me = await chann.messages.fetch('920656078470008846')
                 const embed = new MessageEmbed()
                     .setColor('RANDOM')
