@@ -18,378 +18,380 @@ client.on('interactionCreate', async interaction => {
     } else return;
     }
     if (interaction.customId === '16+') {
-        if (rMember.roles.cache.has('709824547586572288')) {
+        const role = interaction.guild.roles.cache.find(r = r.name === 'Under 18')
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709824547586572288');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709824547586572288')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === '18+') {
-        if (rMember.roles.cache.has('709824510106533954')) {
+        const role = interaction.guild.roles.cache.find(r = r.name === '18+')
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709824510106533954');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709824510106533954')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'male') {
-        if (rMember.roles.cache.has('709820229043224646')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709820229043224646');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709820229043224646')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'female') {
-        if (rMember.roles.cache.has('709820162940993617')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709820162940993617');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709820162940993617')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'other') {
-        if (rMember.roles.cache.has('823436227012460564')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('823436227012460564');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('823436227012460564')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'dping') {
-        if (rMember.roles.cache.has('832445109898444831')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832445109898444831');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832445109898444831')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'bumpers') {
-        if (rMember.roles.cache.has('920239312132526091')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('920239312132526091');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('920239312132526091')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'dmclose') {
-        if (rMember.roles.cache.has('822355899023753257')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('822355899023753257');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('822355899023753257')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'dmopen') {
-        if (rMember.roles.cache.has('822355807634063370')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('822355807634063370');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('822355807634063370')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'pansexual') {
-        if (rMember.roles.cache.has('709826514249842829')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709826514249842829');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709826514249842829')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'semibi') {
-        if (rMember.roles.cache.has('902365343501148183')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('902365343501148183');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('902365343501148183')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'demi') {
-        if (rMember.roles.cache.has('822412663287185438')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('822412663287185438');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('822412663287185438')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'bi') {
-        if (rMember.roles.cache.has('709826630427869275')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709826630427869275');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709826630427869275')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'straight') {
-        if (rMember.roles.cache.has('709826421262123120')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709826421262123120');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709826421262123120')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'gay') {
-        if (rMember.roles.cache.has('709826485678112838')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709826485678112838');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709826485678112838')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'destiny') {
-        if (rMember.roles.cache.has('884768013168029706')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('884768013168029706');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('884768013168029706')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'roblox') {
-        if (rMember.roles.cache.has('832433954815606785')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832433954815606785');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832433954815606785')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'risk') {
-        if (rMember.roles.cache.has('711894758624198656')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('711894758624198656');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('711894758624198656')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'dnd') {
-        if (rMember.roles.cache.has('884769399326793758')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('884769399326793758');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('884769399326793758')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'cod') {
-        if (rMember.roles.cache.has('884768013168029706')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('884768013168029706');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('884768013168029706')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'jackbox') {
-        if (rMember.roles.cache.has('709659224464031827')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709659224464031827');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709659224464031827')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'tos') {
-        if (rMember.roles.cache.has('709658757231018007')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('709658757231018007');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('709658757231018007')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'ps') {
-        if (rMember.roles.cache.has('884735343482519563')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('884735343482519563');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('884735343482519563')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'switch') {
-        if (rMember.roles.cache.has('883746012840222770')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('883746012840222770');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('883746012840222770')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'xbox') {
-        if (rMember.roles.cache.has('883746038479990784')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('883746038479990784');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('883746038479990784')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'pc') {
-        if (rMember.roles.cache.has('883746023569248338')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('883746023569248338');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('883746023569248338')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'pod') {
-        if (rMember.roles.cache.has('884768421189943326')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('884768421189943326');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('884768421189943326')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'zeus') {
-        if (rMember.roles.cache.has('913696207426191360')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('913696207426191360');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('913696207426191360')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'hades') {
-        if (rMember.roles.cache.has('913696410107543582')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('913696410107543582');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('913696410107543582')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
             interaction.followUp({ content: `${interaction.user} You're a fucking moron`, ephemeral: true })
         }
     }
     if (interaction.customId === 'carl') {
-        if (rMember.roles.cache.has('913696419888627773')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('913696419888627773');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('913696419888627773')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'casualvc') {
-        if (rMember.roles.cache.has('914504717307113492')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('914504717307113492');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('914504717307113492')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
 
     if (interaction.customId === 'asia') {
-        if (rMember.roles.cache.has('832445753728303184')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832445753728303184');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832445753728303184')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'southamerica') {
-        if (rMember.roles.cache.has('832447749290459136')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832447749290459136');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832447749290459136')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'northamerica') {
-        if (rMember.roles.cache.has('832446116413964308')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832446116413964308');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832446116413964308')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'africa') {
-        if (rMember.roles.cache.has('832448472531337239')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832448472531337239');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832448472531337239')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'australia') {
-        if (rMember.roles.cache.has('832445948314517584')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832445948314517584');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832445948314517584')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
     if (interaction.customId === 'europe') {
-        if (rMember.roles.cache.has('832448387394568233')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('832448387394568233');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('832448387394568233')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
 
     if (interaction.customId === 'he') {
-        if (rMember.roles.cache.has('924961467302838282')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('924961467302838282');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('924961467302838282')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
 
     if (interaction.customId === 'she') {
-        if (rMember.roles.cache.has('924961482876289034')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('924961482876289034');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('924961482876289034')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
 
     if (interaction.customId === 'them') {
-        if (rMember.roles.cache.has('924961488316268544')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('924961488316268544');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('924961488316268544')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
 
     if (interaction.customId === 'ask') {
-        if (rMember.roles.cache.has('924961491642376213')) {
+        if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
-            rMember.roles.remove('924961491642376213');
+            rMember.roles.remove(role.id);
         } else {
             await interaction.deferUpdate()
-            await interaction.guild.members.cache.get(interaction.user.id).roles.add('924961491642376213')
+            await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
 
