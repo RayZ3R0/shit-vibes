@@ -1,0 +1,842 @@
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Invalid Form Body
+components[0].components[0].style: This field is required
+    at RequestHandler.execute (/home/runner/SN-1/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/SN-1/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async TextChannel.send (/home/runner/SN-1/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:172:15)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Invalid Form Body
+components[0].components[0].style: This field is required
+    at RequestHandler.execute (/home/runner/SN-1/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/SN-1/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async TextChannel.send (/home/runner/SN-1/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:172:15)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: Provide the button label!
+    at ButtonRoles.addrole (/home/runner/SN-1/node_modules/nuggies/src/classes/v13/buttonroles.js:31:21)
+    at MessageCollector.<anonymous> (/home/runner/SN-1/commands/ROles/createrr.js:52:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - TypeError: Cannot destructure property 'content' of 'undefined' as it is undefined.
+    at Function.create (/home/runner/SN-1/node_modules/nuggies/src/classes/v13/buttonroles.js:46:32)
+    at MessageCollector.<anonymous> (/home/runner/SN-1/commands/ROles/createrr.js:62:24)
+    at MessageCollector.emit (node:events:377:35)
+    at MessageCollector.stop (/home/runner/SN-1/node_modules/discord.js/src/structures/interfaces/Collector.js:197:10)
+    at MessageCollector.<anonymous> (/home/runner/SN-1/commands/ROles/createrr.js:34:61)
+    at MessageCollector.emit (node:events:365:28)
+    at MessageCollector.handleCollect (/home/runner/SN-1/node_modules/discord.js/src/structures/interfaces/Collector.js:108:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongooseServerSelectionError: connect ECONNREFUSED 13.228.186.152:27017
+    at Function.Model.$wrapCallback (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/model.js:5087:32)
+    at /home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4510:21
+    at /home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at model.Query.exec (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4509:10)
+    at model.Query.Query.catch (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4608:15)
+    at Database.get (/home/runner/Simp/node_modules/quickmongo/src/Main.js:132:19)
+    at Database.fetch (/home/runner/Simp/node_modules/quickmongo/src/Main.js:149:21)
+    at Timeout._onTimeout (/home/runner/Simp/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongooseServerSelectionError: connect ECONNREFUSED 13.228.186.152:27017
+    at Function.Model.$wrapCallback (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/model.js:5087:32)
+    at /home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4510:21
+    at /home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at model.Query.exec (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4509:10)
+    at model.Query.Query.catch (/home/runner/Simp/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4608:15)
+    at Database.get (/home/runner/Simp/node_modules/quickmongo/src/Main.js:132:19)
+    at Database.fetch (/home/runner/Simp/node_modules/quickmongo/src/Main.js:149:21)
+    at Timeout._onTimeout (/home/runner/Simp/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error [INTERACTION_ALREADY_REPLIED]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/Simpa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:89:46)
+    at Client.<anonymous> (/home/runner/Simpa/events/buttonroles.js:274:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error [INTERACTION_ALREADY_REPLIED]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.reply (/home/runner/Simpa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:89:46)
+    at Client.<anonymous> (/home/runner/Simpa/events/buttonroles.js:274:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error [INTERACTION_ALREADY_REPLIED]: The reply to this interaction has already been sent or deferred.
+    at ButtonInteraction.deferReply (/home/runner/Simpa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:55:46)
+    at Client.<anonymous> (/home/runner/Simpa/events/buttonroles.js:274:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:20:13)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:128:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:47:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:366:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:92:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:236:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:128:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:20:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:346:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simp/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simp/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simp/events/buttonroles.js:236:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async GuildApplicationCommandManager.set (/home/runner/Simpaa/node_modules/discord.js/src/managers/ApplicationCommandManager.js:146:18)
+    at async Client.<anonymous> (/home/runner/Simpaa/handler/index.js:45:9)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - TypeError: message.channel.sens is not a function
+    at Object.run (/home/runner/Simpaa/commands/ROles/rr-misc.js:61:25)
+    at Client.<anonymous> (/home/runner/Simpaa/events/messageCreate.js:19:19)
+    at Client.emit (node:events:377:35)
+    at MessageCreateAction.handle (/home/runner/Simpaa/node_modules/discord.js/src/client/actions/MessageCreate.js:25:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:350:31)
+    at WebSocketShard.onPacket (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketShard.js:443:22)
+    at WebSocketShard.onMessage (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketShard.js:300:10)
+    at WebSocket.onMessage (/home/runner/Simpaa/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:365:28)
+    at Receiver.receiverOnMessage (/home/runner/Simpaa/node_modules/ws/lib/websocket.js:1093:20)
+    at Receiver.emit (node:events:365:28)
+    at Receiver.dataMessage (/home/runner/Simpaa/node_modules/ws/lib/receiver.js:522:14)
+    at Receiver.getData (/home/runner/Simpaa/node_modules/ws/lib/receiver.js:440:17)
+    at Receiver.startLoop (/home/runner/Simpaa/node_modules/ws/lib/receiver.js:148:22)
+    at Receiver._write (/home/runner/Simpaa/node_modules/ws/lib/receiver.js:83:10)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongooseServerSelectionError: connection timed out
+    at Function.Model.$wrapCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/model.js:5087:32)
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4510:21
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at model.Query.exec (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4509:10)
+    at model.Query.Query.catch (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4608:15)
+    at Database.get (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:132:19)
+    at Database.fetch (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:149:21)
+    at Timeout._onTimeout (/home/runner/Simpaa/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongooseServerSelectionError: connection timed out
+    at Function.Model.$wrapCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/model.js:5087:32)
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4510:21
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at model.Query.exec (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4509:10)
+    at model.Query.Query.catch (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4608:15)
+    at Database.get (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:132:19)
+    at Database.fetch (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:149:21)
+    at Timeout._onTimeout (/home/runner/Simpaa/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at TLSSocket.<anonymous> (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (node:events:471:28)
+    at TLSSocket.emit (node:events:365:28)
+    at TLSSocket.Socket._onTimeout (node:net:475:8)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongodb/lib/core/connection/connect.js:362:14)
+    at TLSSocket.<anonymous> (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongodb/lib/core/connection/connect.js:330:16)
+    at Object.onceWrapper (node:events:471:28)
+    at TLSSocket.emit (node:events:365:28)
+    at TLSSocket.Socket._onTimeout (node:net:475:8)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongooseServerSelectionError: connection timed out
+    at Function.Model.$wrapCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/model.js:5087:32)
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4510:21
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at model.Query.exec (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4509:10)
+    at model.Query.Query.catch (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4608:15)
+    at Database.get (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:132:19)
+    at Database.fetch (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:149:21)
+    at Timeout._onTimeout (/home/runner/Simpaa/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - MongooseServerSelectionError: connection timed out
+    at Function.Model.$wrapCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/model.js:5087:32)
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4510:21
+    at /home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at model.Query.exec (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4509:10)
+    at model.Query.Query.catch (/home/runner/Simpaa/node_modules/quickmongo/node_modules/mongoose/lib/query.js:4608:15)
+    at Database.get (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:132:19)
+    at Database.fetch (/home/runner/Simpaa/node_modules/quickmongo/src/Main.js:149:21)
+    at Timeout._onTimeout (/home/runner/Simpaa/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at processTimers (node:internal/timers:497:9)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown Member
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async GuildMemberRoleManager.add (/home/runner/Simpaa/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:35:13)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Cannot send messages to this user
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async DMChannel.send (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:172:15)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Cannot send messages to this user
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async DMChannel.send (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:172:15)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:25:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:351:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:25:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown Member
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async GuildMemberRoleManager.add (/home/runner/Simpaa/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:52:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:97:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:351:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:97:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:106:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:25:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown interaction
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async ButtonInteraction.deferUpdate (/home/runner/Simpaa/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:178:5)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:97:13)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - AbortError: The user aborted a request.
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:200:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async WebSocketManager.connect (/home/runner/Simpaa/node_modules/discord.js/src/client/websocket/WebSocketManager.js:133:9)
+    at async Client.login (/home/runner/Simpaa/node_modules/discord.js/src/client/Client.js:245:7)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Response: Service Unavailable
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:356:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async GuildApplicationCommandManager.set (/home/runner/Simpaa/node_modules/discord.js/src/managers/ApplicationCommandManager.js:146:18)
+    at async Client.<anonymous> (/home/runner/Simpaa/handler/index.js:45:9)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown Role
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async GuildMemberRoleManager.add (/home/runner/Simpaa/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:260:13)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - DiscordAPIError: Unknown Role
+    at RequestHandler.execute (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:349:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/runner/Simpaa/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async GuildMemberRoleManager.add (/home/runner/Simpaa/node_modules/discord.js/src/managers/GuildMemberRoleManager.js:124:7)
+    at async Client.<anonymous> (/home/runner/Simpaa/events/buttonroles.js:260:13)
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mMultiple resolves detected.[39m
+[error] - reject
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - TypeError: Cannot read property 'commands' of undefined
+    at Client.<anonymous> (/home/runner/shit/handler/index.js:46:39)
+    at Client.emit (node:events:377:35)
+    at WebSocketManager.triggerClientReady (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketManager.js:383:17)
+    at WebSocketManager.checkShardsReady (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketManager.js:366:10)
+    at WebSocketShard.<anonymous> (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketManager.js:188:14)
+    at WebSocketShard.emit (node:events:365:28)
+    at WebSocketShard.checkReady (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketShard.js:474:12)
+    at WebSocketShard.onPacket (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketShard.js:446:16)
+    at WebSocketShard.onMessage (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketShard.js:300:10)
+    at WebSocket.onMessage (/home/runner/shit/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:365:28)
+    at Receiver.receiverOnMessage (/home/runner/shit/node_modules/ws/lib/websocket.js:1093:20)
+    at Receiver.emit (node:events:365:28)
+    at Receiver.dataMessage (/home/runner/shit/node_modules/ws/lib/receiver.js:522:14)
+    at Receiver.getData (/home/runner/shit/node_modules/ws/lib/receiver.js:440:17)
+    at Receiver.startLoop (/home/runner/shit/node_modules/ws/lib/receiver.js:148:22)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - TypeError: Cannot read property 'commands' of undefined
+    at Client.<anonymous> (/home/runner/shit/handler/index.js:46:39)
+    at Client.emit (node:events:377:35)
+    at WebSocketManager.triggerClientReady (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketManager.js:383:17)
+    at WebSocketManager.checkShardsReady (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketManager.js:366:10)
+    at WebSocketShard.<anonymous> (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketManager.js:188:14)
+    at WebSocketShard.emit (node:events:365:28)
+    at WebSocketShard.checkReady (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketShard.js:474:12)
+    at WebSocketShard.onPacket (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketShard.js:446:16)
+    at WebSocketShard.onMessage (/home/runner/shit/node_modules/discord.js/src/client/websocket/WebSocketShard.js:300:10)
+    at WebSocket.onMessage (/home/runner/shit/node_modules/ws/lib/event-target.js:199:18)
+    at WebSocket.emit (node:events:365:28)
+    at Receiver.receiverOnMessage (/home/runner/shit/node_modules/ws/lib/websocket.js:1093:20)
+    at Receiver.emit (node:events:365:28)
+    at Receiver.dataMessage (/home/runner/shit/node_modules/ws/lib/receiver.js:522:14)
+    at Receiver.getData (/home/runner/shit/node_modules/ws/lib/receiver.js:440:17)
+    at Receiver.startLoop (/home/runner/shit/node_modules/ws/lib/receiver.js:148:22)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[error] - [94m[antiCrash.js][39m[31mUnhandled rejection/crash detected.[39m
+[error] - Error: DATABASE_NOT_READY
+    at d.__readyCheck (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:7319)
+    at d.getRaw (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2216)
+    at d.get (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2374)
+    at d.fetch (/home/runner/shit/node_modules/quickmongo/dist/index.js:1:2459)
+    at Timeout._onTimeout (/home/runner/shit/node_modules/simply-djs/src/bumpSys.js:58:26)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
