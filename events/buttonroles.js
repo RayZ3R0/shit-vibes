@@ -288,7 +288,7 @@ client.on('interactionCreate', async interaction => {
         }
     }
     if (interaction.customId === 'casualvc') {
-        const role = interaction.guild.roles.cache.find(r => r.name === '18+')
+        const role = interaction.guild.roles.cache.find(r => r.name === 'Casual VC')
         if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
             rMember.roles.remove(role.id);
@@ -299,7 +299,7 @@ client.on('interactionCreate', async interaction => {
     }
 
     if (interaction.customId === 'asia') {
-        const role = interaction.guild.roles.cache.find(r => r.name === '18+')
+        const role = interaction.guild.roles.cache.find(r => r.name === 'Asia')
         if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
             rMember.roles.remove(role.id);
@@ -309,7 +309,7 @@ client.on('interactionCreate', async interaction => {
         }
     }
     if (interaction.customId === 'southamerica') {
-        const role = interaction.guild.roles.cache.find(r => r.name === 'Casual VC')
+        const role = interaction.guild.roles.cache.find(r => r.name === 'South America')
         if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
             rMember.roles.remove(role.id);
