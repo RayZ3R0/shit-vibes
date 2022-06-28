@@ -1,4 +1,4 @@
-const simplydjs = require("simply-djs");
+/*const simplydjs = require("simply-djs");
 const client = require('../index')
 
 client.on("messageCreate", async (message) => {
@@ -6,4 +6,4 @@ client.on("messageCreate", async (message) => {
   channelId: ["990584443087519748"],
   auto: false
 })
-});
+});*/
