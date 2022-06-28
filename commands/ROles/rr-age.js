@@ -27,8 +27,8 @@ run: async (client, message, args) => {
     ]
     if (!owners.includes(message.author.id)) return;
     
-    const chann = message.guild.channels.cache.get('709656390943244299')
-    const me = await chann.messages.fetch('920656015035334686')
+    //const chann = message.guild.channels.cache.get('709656390943244299')
+//    const me = await chann.messages.fetch('920656015035334686')
         const embed = new MessageEmbed()
             .setColor('RANDOM')
             .setTitle('Pick your age roles!')
@@ -51,7 +51,7 @@ run: async (client, message, args) => {
                 .setLabel('18+')
                 .setStyle('PRIMARY'),
             );
-        me.edit({
+        message.channel.send({
             embeds: [embed],
             components: [row]
         })
