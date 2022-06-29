@@ -207,8 +207,8 @@ client.on('interactionCreate', async interaction => {
             await interaction.guild.members.cache.get(interaction.user.id).roles.add(role.id)
         }
     }
-    if (interaction.customId === 'cod') {
-        const role = interaction.guild.roles.cache.find(r => r.name === 'Call of Duty')
+    if (interaction.customId === 'apex') {
+        const role = interaction.guild.roles.cache.find(r => r.name === 'Apex Legends')
         if (rMember.roles.cache.has(role.id)) {
             await interaction.deferUpdate()
             rMember.roles.remove(role.id);

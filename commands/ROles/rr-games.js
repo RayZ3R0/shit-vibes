@@ -74,7 +74,7 @@ module.exports = {
                         .setLabel('Roblox')
                         .setStyle('SUCCESS'),
                         new MessageButton()
-                        .setCustomId('cod')
+                        .setCustomId('apex')
                         .setLabel('Apex Legends')
                         .setStyle('SUCCESS'),
                         new MessageButton()
